@@ -9,8 +9,8 @@ import { MdAdd } from "react-icons/md";
 import Modal from "react-modal";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../../utils/axiosInstance";
-import noData from "../../assets/img/noData.svg";
-import notFound from "../../assets/img/search-not-found.svg";
+// import noData from "../../assets/img/noData.svg";
+// import notFound from "../../assets/img/search-not-found.svg";
 
 const Home = () => {
   Modal.setAppElement("#root");
@@ -180,7 +180,7 @@ const Home = () => {
           </div>
         ) : (
           <EmptyCard
-            imgSrc={isSearch ? notFound : noData}
+            imgSrc={isSearch ? null : null }
             message={
               isSearch
                 ? "Ooops... We can't find what you're looking for"
