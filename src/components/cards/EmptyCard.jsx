@@ -1,5 +1,5 @@
 import React from 'react'
-import noData from "../../assets/noData.svg";
+import noData from "../../assets/react.svg";
 import notFound from "../../assets/search-not-found.svg"
 
 
